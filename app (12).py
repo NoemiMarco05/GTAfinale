@@ -300,7 +300,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Titolo personalizzato
-st.markdown('<div class="unifraktur">📊 Dashboard vendite:</div>', unsafe_allow_html=True)
+st.markdown('<div class="unifraktur">📊 Vendite del gioco:</div>', unsafe_allow_html=True)
 
 vendite_milioni = int(dati["vendite_milioni"].sum()) * 1000000
 media_transazione = round(dati["vendite_milioni"].mean(), 2)
